@@ -8,7 +8,7 @@ updated time 2023-03-04
 *********************
 [rewrite_local]
 # Unlock Any Revenuecat
-^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body itunes.js
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/HHN1CE/QuanX/main/Script/itunes.js
 [mitm]
 hostname = buy.itunes.apple.com
 *
