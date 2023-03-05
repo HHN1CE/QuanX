@@ -10,7 +10,7 @@ updated time 2023-03-04
 *********************
 [rewrite_local]
 # Unlock Any Revenuecat
-^https?:\/\/api\.revenuecat\.com\/v1\/subscribers\/\$\S{48} url script-response-body revenuecat.js
+^https?:\/\/api\.revenuecat\.com\/v1\/subscribers\/\$\S{48} url script-response-body https://raw.githubusercontent.com/HHN1CE/QuanX/main/Script/revenuecat.js
 [mitm]
 hostname = api.revenuecat.com
 *
